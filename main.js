@@ -5,7 +5,7 @@ const loadMoreButton = document.getElementById('load-more-btn');
 let currentPage = 1;
 let isLoading = false;
 
-// Fetch news articles from the News API
+// Fetch news articles from the News API 
 const fetchNews = async (page) => {
     const url = `https://newsapi.org/v2/top-headlines?country=us&pageSize=10&page=${page}&apiKey=${apiKey}`;
     try {
